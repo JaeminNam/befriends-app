@@ -4471,10 +4471,15 @@ react-native-gesture-handler@~1.5.0:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
-react-native-image-pan-zoom@^2.1.9:
+react-native-image-pan-zoom@^2.1.11, react-native-image-pan-zoom@^2.1.9:
   version "2.1.11"
   resolved "https://registry.yarnpkg.com/react-native-image-pan-zoom/-/react-native-image-pan-zoom-2.1.11.tgz#61bcb69219d95e76a9797d23e4a2e8e0bd654ae9"
   integrity sha512-ZCisGUFpPchHXsjT7ZI0anlSLPgcTmjRKXqpVnPu3RDWFXfKjuL4zpY57DX4Y8YgGZCpbf9fApN7KjVYody2Mw==
+
+react-native-image-viewing@^0.1.3:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/react-native-image-viewing/-/react-native-image-viewing-0.1.6.tgz#07f638c8d9a17d26d4cd2e318b72730947e1e015"
+  integrity sha512-M2qv7k2F4x22skVfotHk3C1xLQCE6fgFS5zacFgTG7ypOK4jWY/A2vO6krmNmEmi9JXpYvztC9zBDNJ4856e6g==
 
 react-native-image-zoom-viewer@^2.2.27:
   version "2.2.27"
@@ -4482,6 +4487,26 @@ react-native-image-zoom-viewer@^2.2.27:
   integrity sha512-BMA8ZGe6dub9mPbGhFn14eAnq8H5ig32nY9vPqTjsJluLTcwjkMjupu47dha1ikK7vFo0zpGDFKlv2WHbtf+EQ==
   dependencies:
     react-native-image-pan-zoom "^2.1.9"
+
+react-native-input-scroll-view@^1.9.5:
+  version "1.9.5"
+  resolved "https://registry.yarnpkg.com/react-native-input-scroll-view/-/react-native-input-scroll-view-1.9.5.tgz#5e71d4483c5754146f25072aebf47d147a106ca6"
+  integrity sha512-HXhrLPqjHkXjw6e47gr4Jnicxa5/QqTtlMNAdWPnW3t70nA0jnYW4m35paxUUjTw7IZGHD0mef3drmn3XzTuFw==
+  dependencies:
+    prop-types "^15.5.10"
+
+react-native-iphone-x-helper@^1.0.3:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.1.tgz#645e2ffbbb49e80844bb4cbbe34a126fda1e6772"
+  integrity sha512-/VbpIEp8tSNNHIvstuA3Swx610whci1Zpc9mqNkqn14DkMbw+ORviln2u0XyHG1kPvvwTNGZY6QpeFwxYaSdbQ==
+
+react-native-keyboard-aware-scroll-view@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/react-native-keyboard-aware-scroll-view/-/react-native-keyboard-aware-scroll-view-0.9.1.tgz#9e54b565a5f19b30bed12221d48921781f7630af"
+  integrity sha512-tBZ8rmjELN0F6t5UBp5CW3NYmZXgVnJSzVCssv/OqG2t6kiB+OUTqxNvUP24K+HARX4H+XaW0aEJSFQkQCv6KA==
+  dependencies:
+    prop-types "^15.6.2"
+    react-native-iphone-x-helper "^1.0.3"
 
 react-native-reanimated@^1.4.0:
   version "1.4.0"
@@ -4785,6 +4810,13 @@ rimraf@~2.2.6:
   version "2.2.8"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
   integrity sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=
+
+rn-autoheight-input@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/rn-autoheight-input/-/rn-autoheight-input-1.0.1.tgz#1161a114898bac814f23bba8edc44cf80c8971f3"
+  integrity sha512-ph3Brwb8iZPyJrNIKYfJrXyTjP2+O8bChhGFty9spQVRDXSkFziOBDNDtX1zJUN9TMHUgGtIlhFBvTeO54RNpw==
+  dependencies:
+    prop-types "^15.6.0"
 
 rsvp@^4.8.4:
   version "4.8.5"
@@ -5730,10 +5762,10 @@ yargs@^9.0.0:
     y18n "^3.2.1"
     yargs-parser "^7.0.0"
 
-yarn@^1.21.1:
-  version "1.21.1"
-  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.21.1.tgz#1d5da01a9a03492dc4a5957befc1fd12da83d89c"
-  integrity sha512-dQgmJv676X/NQczpbiDtc2hsE/pppGDJAzwlRiADMTvFzYbdxPj2WO4PcNyriSt2c4jsCMpt8UFRKHUozt21GQ==
+yarn@^1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.0.tgz#acf82906e36bcccd1ccab1cfb73b87509667c881"
+  integrity sha512-KMHP/Jq53jZKTY9iTUt3dIVl/be6UPs2INo96+BnZHLKxYNTfwMmlgHTaMWyGZoO74RI4AIFvnWhYrXq2USJkg==
 
 zen-observable-ts@^0.8.20:
   version "0.8.20"
